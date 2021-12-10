@@ -86,3 +86,13 @@ input[type="submit"]{
     display: flex;
     justify-content: center;
 }
+@media screen and (max-width:729px) {
+    .form-top-section .form-row{
+        display: block;
+        width: 100%;
+    }
+    .form-row{
+        display: block;
+    }
+
+}
